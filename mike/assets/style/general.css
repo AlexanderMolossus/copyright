@@ -1,0 +1,75 @@
+/* ----------------------------- */
+/* General */
+/* ----------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'bebasNeue';
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    background: #111111;
+    color: white;
+    list-style: none;
+}
+
+.container{
+    margin: 0 10%;
+}
+
+/* ----------------------------- */
+/* Header */
+/* ----------------------------- */
+
+header{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+h1{
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* ----------------------------- */
+/* Main */
+/* ----------------------------- */
+
+.main_grid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-auto-rows: minmax(auto, 1fr);
+        
+}
+
+
+
+/* ----------------------------- */
+/* Footer */
+/* ----------------------------- */
+
+.all_pages_footers{
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+    color: #313131;
+}
+
+
+/* ----------------------------- */
+/* Fonts */
+/* ----------------------------- */
+
+@font-face {
+    font-family: 'bebasNeue';
+    src: url(../fonts/BebasNeue.ttf) format('truetype');
+}
